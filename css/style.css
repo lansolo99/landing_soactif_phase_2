@@ -66,7 +66,7 @@
 
 	.segment.message{
 	  background: #ffffff;
-	  padding: 40px 0;
+	  padding: 30px 0;
 	}
 
 	.segment.contact{
@@ -672,7 +672,7 @@
 		  vertical-align: middle;
 			float:right;
 			position: relative;
-			width: 13vw;
+			width: 24vw;
 	    height: auto;
 			top:-1vw;
 		}
@@ -698,14 +698,17 @@
 			height:auto;
 		}
 
-
-
 		#mobile-promo, #mobile-contact{
 			display: block;
 			background: #cb2323;
 			color: #ffffff;
 			text-align: center;
 		}
+
+		#mobile-promo .taux{
+			margin-bottom: 2vw;
+		}
+
 
 		#mobile-promo .taux h2, #mobile-promo .taux h3{
 			display: inline;
@@ -738,6 +741,7 @@
 		  font-size: 3.3vw;
 		  letter-spacing: normal;
 			text-transform: uppercase;
+			text-align: left;
 		}
 
 		#mobile-contact .button{
@@ -757,8 +761,7 @@
 
 		#mobile-contact .button span{
 			position: relative;
-			right:12px;
-			top:2px;
+			top:0.5vw;
 		}
 
 		#mobile-contact .row{
@@ -780,6 +783,7 @@
 			font-size: 4vw;
 			line-height: 6vw;
 		}
+
 
 		.segment.exemple .main p sup{
 			font-size: 3vw;
@@ -835,7 +839,6 @@
 
 	@media screen and (max-width:900px) {
 
-
 		.segment.header{
 			padding: 5%;
 		}
@@ -843,7 +846,6 @@
 	  .segment.contact{
 	    padding: 7% 5%;
 	  }
-
 
 		#mobile-promo, #mobile-contact{
 			padding: 5%;
@@ -856,7 +858,6 @@
 		#mobile-contact{
 			padding-top: 0;
 		}
-
 
 		.segment.exemple{
 	    padding: 5%;
@@ -887,28 +888,5 @@
 	  line-height: 6vw;
 	  }
 
-
-	  #logo img{
-	    width: 100%;
-	    height: auto;
-	  }
-
-	  #logo2{
-	    top:-1vw;
-	    width: 9vw;
-	    height: auto;
-	  }
-
-	}
-
-
-	@media screen and (max-width:400px) {
-	  #form .button{
-	    font-size: 17px;
-	  }
-
-	  #form .button span i.icon-arrow:before{
-	    right: -23px;
-	  }
 
 	}
