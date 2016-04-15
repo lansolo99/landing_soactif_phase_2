@@ -232,6 +232,7 @@
 	 overflow: hidden;
 	 text-align: center;
 	 padding-top: 30px;
+	 overflow: hidden;
 }
 
 
@@ -403,6 +404,10 @@
 
 .segment.exemple .main p sup{
 	font-size: 0.6em;
+}
+
+.segment.exemple p span.nw{
+	white-space:nowrap;
 }
 
 .segment.exemple .main p strong{
