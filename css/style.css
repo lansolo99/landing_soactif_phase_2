@@ -164,6 +164,7 @@
 	.segment.message #baseline{
 	  font-size: 22px;
 		font-weight: 500;
+		letter-spacing: normal;
 	}
 
 	.segment.message #baseline sup{
@@ -822,7 +823,7 @@
 
 
 		.segment.description p{
-			font-size: 3vw;
+			font-size: 3.5vw;
 		}
 
 		.segment.expertise h1{
