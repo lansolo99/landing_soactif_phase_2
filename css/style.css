@@ -87,6 +87,11 @@
 	  padding: 30px 0;
 	}
 
+	.segment.description{
+		background: #ffffff;
+		padding: 30px 0;
+	}
+
 	.segment.expertise{
 	  background: #faf9f7;
 	  padding: 30px 0;
@@ -418,6 +423,13 @@
 	font-size: 20px;
 }
 
+
+	/* Description */
+
+	.segment.description p{
+		font-size: 12px;
+		color: #666;
+	}
 
 	/* Expertise */
 
@@ -802,6 +814,11 @@
 			font-size: 4.3vw;
 		}
 
+
+		.segment.description p{
+			font-size: 3vw;
+		}
+
 		.segment.expertise h1{
 			font-size: 5vw;
 		}
@@ -866,6 +883,10 @@
 
 		.segment.exemple{
 	    padding: 5%;
+	  }
+
+		.segment.description{
+	    padding: 7% 5%;
 	  }
 
 	  .segment.expertise{
