@@ -420,14 +420,15 @@
 }
 
 .segment.exemple .main p span > strong {
-	font-size: 20px;
+	font-size: 22px;
 }
+
 
 
 	/* Description */
 
 	.segment.description p{
-		font-size: 12px;
+		font-size: 14px;
 		color: #666;
 	}
 
@@ -816,7 +817,7 @@
 		}
 
 		.segment.exemple .main p span > strong {
-			font-size: 4.3vw;
+			font-size: 5vw;
 		}
 
 
