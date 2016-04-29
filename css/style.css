@@ -599,6 +599,11 @@
 	    padding: 0;
 	  }
 
+
+		.segment.description{
+			padding: 30px;
+		}
+
 		.segment.exemple{
 	    padding: 30px;
 	  }
