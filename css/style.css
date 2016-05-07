@@ -184,7 +184,7 @@
 		position: relative;
 	  width: 100%;
 		text-align: right;
-		background: url('../images/main_image.jpg') no-repeat;
+		background: url('../images/main_image_auto.jpg') no-repeat;
 		background-position: center top;
 		background-size: cover;
 	}
